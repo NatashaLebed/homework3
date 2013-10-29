@@ -1,6 +1,8 @@
 {
     "autoload": {
-        "psr-0": {"natasha\\": "vendor/"}
+        "psr-0": {
+		"natasha\\": "src/"
+	}
     },
     "require": {
         "symfony/http-foundation": "2.4.*@dev"
