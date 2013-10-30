@@ -5,6 +5,7 @@
 	}
     },
     "require": {
-        "symfony/http-foundation": "2.4.*@dev"
+        "symfony/http-foundation": "2.4.*@dev",
+	"twig/twig":">=1.8,<2.0-dev"
     }
 }

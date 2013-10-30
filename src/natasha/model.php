@@ -5,7 +5,7 @@ use natasha\Countries\Estonia;
 
 function getUkraineParam()
 {
-    $myUkraine = new Ukraine('38 mln','603 000 km','Victor Yanukovych');
+    $myUkraine = new Ukraine('38 mln','603 000 km','Good President');
     $ua['about'] = $myUkraine->about();
     $ua['exUssrCountries'] = $myUkraine->exUssrCountries();
 

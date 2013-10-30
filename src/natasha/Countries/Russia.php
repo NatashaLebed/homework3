@@ -2,11 +2,6 @@
 
 namespace natasha\Countries;
 
-    /*Класс Трансформер_коляска наследует все методы абстрактного класса Коляска*/
-    /*Реализует метод Текст_для_прайса*/
-
-/*Имеет дополнительную фичу Складывание, Защита_от_Холода, Перекидная_ручка (интерфейсы)*/
-
 class Russia extends AbstractCountries implements GroupOfEightInterface, ExUssrCountriesInterface
 {
     public function __construct($population, $area, $president)

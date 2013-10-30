@@ -2,12 +2,6 @@
 
 namespace natasha\Countries;
 
-/*Класс Летняя_коляска наследует все методы абстрактного класса Коляска*/
-/*Реализует метод Текст_для_прайса*/
-
-/*Имеет дополнительную фичу Складывание(интерфейс)*/
-
-
 class Ukraine extends AbstractCountries implements ExUssrCountriesInterface
 {
     public function setPresident($president)
