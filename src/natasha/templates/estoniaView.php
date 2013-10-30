@@ -7,7 +7,6 @@
 <ul>
     <li><?php echo $ee['europeanUnion'] ?></li>
     <li><?php echo $ee['exUssrCountries'] ?></li>
-    <li><?php echo $ee['reversibleHandle'] ?></li>
 </ul>
 </body>
 </html>

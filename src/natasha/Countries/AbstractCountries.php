@@ -9,7 +9,7 @@ abstract class AbstractCountries
 {
     public $population;
     public $area;
-    public $headOfState;
+    public $president;
 
     abstract public function about();
 
@@ -25,9 +25,9 @@ abstract class AbstractCountries
         $this->area = $area;
     }
 
-    public function setHeadOfState($headOfState)
+    public function setPresident($president)
     {
-        $this->headOfState = $headOfState;
+        $this->president = $president;
     }
 
     /*================Get Values===================*/
@@ -42,19 +42,10 @@ abstract class AbstractCountries
        return $this->area;
     }
 
-    public function getHeadOfState()
+    public function getPresident()
     {
-        return $this->headOfState;
+        return $this->president;
     }
 
-    public function go()
-    {
-        return 'Go!';
-    }
-
-    public function stop()
-    {
-        return 'Stop!';
-    }
 
 }

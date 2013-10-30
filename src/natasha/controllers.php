@@ -8,10 +8,9 @@ require 'model.php';
 
 function countriesAction()
 {
-
     $ua = getUkraineParam();
     $ee = getEstoniaParam();
-    echo 'qqqqqqqqqqq';
+
     ob_start();
     require 'templates/view.php';
     $html = ob_get_clean();

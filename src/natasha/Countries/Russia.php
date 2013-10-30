@@ -2,12 +2,12 @@
 
 namespace natasha\Countries;
 
-/*Класс Трансформер_коляска наследует все методы абстрактного класса Коляска*/
-/*Реализует метод Текст_для_прайса*/
+    /*Класс Трансформер_коляска наследует все методы абстрактного класса Коляска*/
+    /*Реализует метод Текст_для_прайса*/
 
 /*Имеет дополнительную фичу Складывание, Защита_от_Холода, Перекидная_ручка (интерфейсы)*/
 
-class Estonia extends AbstractCountries implements EuropeanUnionInterface, ExUssrCountriesInterface
+class Russia extends AbstractCountries implements GroupOfEightInterface, ExUssrCountriesInterface
 {
     public function __construct($population, $area, $president)
     {   $this->setPopulation($population);
@@ -15,15 +15,14 @@ class Estonia extends AbstractCountries implements EuropeanUnionInterface, ExUss
         $this->setPresident($president);
     }
 
-
     public function about()
     {
         return ("Estonia - {$this->getPopulation()}, {$this->getArea()}, {$this->getPresident()}");
     }
 
-    public function europeanUnion()
+    public function groupOfEight()
     {
-       return 'is a member of EuropeanUnion';
+        return 'is a member of GroupOfEight ';
     }
 
     public function exUssrCountries()

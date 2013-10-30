@@ -12,9 +12,27 @@ use Symfony\Component\HttpFoundation\Response;
 
 $request = Request::createFromGlobals();
 $uri = $request->getPathInfo();
-// $uri = $_SERVER['REQUEST_URI'];
 
-if ($uri == '/') {
+switch($uri)
+{
+    case '/':
+        $response = countriesAction();
+        break;
+    case '/ukraineView':
+        $response = ukraineAction();
+        break;
+    case '/estoniaView':
+        $response = estoniaAction();
+        break;
+    default:
+        $html = '<html><body><h1>404</h1></body></html>';
+        $response = new Response($html, 404);
+}
+
+$response->send();
+
+
+/*if ($uri == '/') {
     $response = countriesAction();
 } elseif ($uri == '/ukraineView') {
     $response = ukraineAction();
@@ -23,7 +41,7 @@ if ($uri == '/') {
 } else {
     $html = '<html><body><h1>404</h1></body></html>';
     $response = new Response($html, 404);
-}
+}*/
 
-$response->send();
+
 
