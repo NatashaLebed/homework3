@@ -3,10 +3,10 @@ homework3
 
 MVC
 
-froncontroller - src/natasha/index.php 
-actions in src/natasha/controllers.php 
-models - src/natasha/model.php 
-views - src/natasha/templates/
+* froncontroller - src/natasha/index.php 
+* actions in src/natasha/controllers.php 
+* models - src/natasha/model.php 
+* views - src/natasha/templates/
 -------------------------------------
 OOP - Countries
 
