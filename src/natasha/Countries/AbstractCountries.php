@@ -3,48 +3,48 @@
 /*Абстрактный класс Коляска с общим для всех весом, брендом, количеством колес. Все коляски умеют ехать и останавливаться. */
 /* Имеет абстрактный метод Текст_для_прайса , для разных колясок дописывается разный префикс*/
 
-namespace natasha\Perambulator;
+namespace natasha\Countries;
 
-abstract class AbstractPerambulator
+abstract class AbstractCountries
 {
-    public $brand;
-    public $weight;
-    public $numberWheels;
+    public $population;
+    public $area;
+    public $headOfState;
 
-    abstract public function priceTitle();
+    abstract public function about();
 
     /*================Set Values==================*/
 
-    public function setBrand($brand)
+    public function setPopulation($population)
     {
-        $this->brand = $brand;
+        $this->population = $population;
     }
 
-    public function setWeight($weight)
+    public function setArea($area)
     {
-        $this->weight = $weight;
+        $this->area = $area;
     }
 
-    public function setNumberWheels($numberWheels)
+    public function setHeadOfState($headOfState)
     {
-        $this->numberWheels = $numberWheels;
+        $this->headOfState = $headOfState;
     }
 
     /*================Get Values===================*/
 
-    public function getBrand()
+    public function getPopulation()
     {
-        return $this->brand;
+        return $this->population;
     }
 
-    public function getWeight()
+    public function getArea()
     {
-       return $this->weight;
+       return $this->area;
     }
 
-    public function getNumberWheels()
+    public function getHeadOfState()
     {
-        return $this->numberWheels;
+        return $this->headOfState;
     }
 
     public function go()

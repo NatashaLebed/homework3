@@ -1,22 +1,25 @@
 <?php
 
-use natasha\Perambulator\SummerPerambulator;
-use natasha\Perambulator\TransformerPerambulator;
+use natasha\Countries\Ukraine;
+use natasha\Countries\Estonia;
 
-function getSummerParam()
+function getUkraineParam()
 {
-    $mySummer = new SummerPerambulator('Chikko','7','3');
-    $summer['title'] = $mySummer->priceTitle();
-    $summer['fold'] = $mySummer->fold();
-    return $summer;
+    $myUkraine = new Ukraine('38 mln','603 000 km','ProFFesor');
+    $ua['about'] = $myUkraine->about();
+    $ua['exUssrCountries'] = $myUkraine->exUssrCountries();
+
+    return $ua;
 }
 
-function getTransformerParam()
+function getEstoniaParam()
 {
-    $myTransformer = new TransformerPerambulator('GoodBaby','15','4');
-    $transformer['title'] = $myTransformer->priceTitle();
-    $transformer['fold'] = $myTransformer->fold();
-    $transformer['protectCold'] = $myTransformer->protectCold();
-    $transformer['reversibleHandle'] = $myTransformer->reversibleHandle();
-    return $transformer;
+    $myEstonia = new Estonia('1,2 mln','45 000 km','Tomas Hendrik');
+    echo 'qqqqqqqqqqq';
+    $ee['about'] = $myEstonia->about();
+    $ee['europeanUnion'] = $myEstonia->europeanUnion();
+    $ee['exUssrCountries'] = $myEstonia->exUssrCountries();
+    $ee['reversibleHandle'] = $myEstonia->reversibleHandle();
+
+    return $ee;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace natasha\Perambulator;
+namespace natasha\Countries;
 
 interface ReversibleHandleInterface
 {

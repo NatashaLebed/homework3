@@ -5,8 +5,8 @@
     <body>
         <h1>Countries</h1>
         <ul>
-            <li><a href='index.php/ukraineView'><?php echo $summer['title'] ?></a></li>
-            <li><a href='index.php/italiaShow'><?php echo $transformer['title'] ?></a></li>
+            <li><a href='index.php/ukraineView'><?php echo $ua['about'] ?></a></li>
+            <li><a href='index.php/estoniaView'><?php echo $ee['about'] ?></a></li>
         </ul>
     </body>
 </html>
