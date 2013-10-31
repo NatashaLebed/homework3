@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1f2cb774d959f754fea028dd89871abf",
+    "hash": "a53c1893cace06d69d24bec676ea8767",
     "packages": [
         {
             "name": "symfony/http-foundation",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "309edb65513bbc6a124dc5acc568b1fc4896cd57"
+                "reference": "b4f4f9f42f7cbbf3796dd724ed66f455a160c89f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/309edb65513bbc6a124dc5acc568b1fc4896cd57",
-                "reference": "309edb65513bbc6a124dc5acc568b1fc4896cd57",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/b4f4f9f42f7cbbf3796dd724ed66f455a160c89f",
+                "reference": "b4f4f9f42f7cbbf3796dd724ed66f455a160c89f",
                 "shasum": ""
             },
             "require": {
@@ -53,20 +53,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-27 07:50:44"
+            "time": "2013-10-30 08:33:58"
         },
         {
             "name": "twig/twig",
-            "version": "v1.14.1",
+            "version": "v1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb"
+                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8873d7593ad7c120004f177c0fd01459b383c9cb",
-                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ca445842fcea4f844d68203ffa2d00f5e3cdea64",
+                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-15 19:17:38"
+            "time": "2013-10-30 08:20:53"
         }
     ],
     "packages-dev": [
